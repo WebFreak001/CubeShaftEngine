@@ -6,10 +6,10 @@ using System.Threading.Tasks;
 
 namespace CubeShaftEngine.Math
 {
-	public struct Vector3<T>
+	public struct Vector3f
 	{
-		T X { get; set; }
-		T Y { get; set; }
-		T Z { get; set; }
+		float X { get; set; }
+		float Y { get; set; }
+		float Z { get; set; }
 	}
 }
